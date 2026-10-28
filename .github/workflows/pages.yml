@@ -3,8 +3,6 @@ name: Dashboard
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: '0 * * * *' # щогодини оновлюємо метрики
   workflow_dispatch:
 
 permissions:
@@ -24,20 +22,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Collect metrics
-        run: node scripts/collect-metrics.mjs
-        env:
-          KEYCRM_API_KEY: ${{ secrets.KEYCRM_API_KEY }}
-          KEYCRM_BOT_SOURCE_IDS: ${{ vars.KEYCRM_BOT_SOURCE_IDS }}
-          BOT_METRICS_URL: ${{ secrets.BOT_METRICS_URL }}
-          BOT_METRICS_TOKEN: ${{ secrets.BOT_METRICS_TOKEN }}
-          BOT_PLATFORM_NAME: ${{ vars.BOT_PLATFORM_NAME }}
-          ONEC_LAST_IMPORT: ${{ vars.ONEC_LAST_IMPORT }}
 
       - uses: actions/configure-pages@v5
 
