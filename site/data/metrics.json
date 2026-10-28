@@ -1,0 +1,1068 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-28T10:50:49.096Z",
+  "mode": "demo",
+  "sources": {
+    "bot_platform": {
+      "status": "not_connected",
+      "name": null,
+      "note": "Платформу ще вибираємо"
+    },
+    "keycrm": {
+      "status": "not_connected",
+      "note": "Додайте KEYCRM_API_KEY у секрети репозиторію"
+    },
+    "onec": {
+      "status": "not_connected",
+      "note": "Дані з 1С ще не вивантажені"
+    }
+  },
+  "daily": [
+    {
+      "date": "2026-08-30",
+      "channels": {
+        "telegram": 12,
+        "instagram": 11,
+        "viber": 7,
+        "website": 3
+      },
+      "ai_resolved": 19,
+      "handoffs": 14,
+      "orders": 3,
+      "revenue": 4599,
+      "new_clients": 1,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-08-31",
+      "channels": {
+        "telegram": 18,
+        "instagram": 17,
+        "viber": 11,
+        "website": 5
+      },
+      "ai_resolved": 29,
+      "handoffs": 22,
+      "orders": 4,
+      "revenue": 3927,
+      "new_clients": 2,
+      "blocked": 3,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-09-01",
+      "channels": {
+        "telegram": 21,
+        "instagram": 17,
+        "viber": 8,
+        "website": 5
+      },
+      "ai_resolved": 29,
+      "handoffs": 22,
+      "orders": 5,
+      "revenue": 5876,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-02",
+      "channels": {
+        "telegram": 18,
+        "instagram": 14,
+        "viber": 11,
+        "website": 6
+      },
+      "ai_resolved": 30,
+      "handoffs": 19,
+      "orders": 5,
+      "revenue": 6942,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-09-03",
+      "channels": {
+        "telegram": 19,
+        "instagram": 16,
+        "viber": 10,
+        "website": 5
+      },
+      "ai_resolved": 28,
+      "handoffs": 22,
+      "orders": 5,
+      "revenue": 4802,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-04",
+      "channels": {
+        "telegram": 18,
+        "instagram": 19,
+        "viber": 10,
+        "website": 4
+      },
+      "ai_resolved": 32,
+      "handoffs": 19,
+      "orders": 4,
+      "revenue": 5364,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 10
+    },
+    {
+      "date": "2026-09-05",
+      "channels": {
+        "telegram": 13,
+        "instagram": 12,
+        "viber": 7,
+        "website": 3
+      },
+      "ai_resolved": 22,
+      "handoffs": 13,
+      "orders": 3,
+      "revenue": 4253,
+      "new_clients": 2,
+      "blocked": 1,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-06",
+      "channels": {
+        "telegram": 15,
+        "instagram": 11,
+        "viber": 7,
+        "website": 4
+      },
+      "ai_resolved": 22,
+      "handoffs": 15,
+      "orders": 3,
+      "revenue": 4616,
+      "new_clients": 1,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-09-07",
+      "channels": {
+        "telegram": 22,
+        "instagram": 19,
+        "viber": 10,
+        "website": 5
+      },
+      "ai_resolved": 35,
+      "handoffs": 21,
+      "orders": 5,
+      "revenue": 7670,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-09-08",
+      "channels": {
+        "telegram": 22,
+        "instagram": 18,
+        "viber": 11,
+        "website": 5
+      },
+      "ai_resolved": 34,
+      "handoffs": 22,
+      "orders": 5,
+      "revenue": 5340,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 8
+    },
+    {
+      "date": "2026-09-09",
+      "channels": {
+        "telegram": 19,
+        "instagram": 17,
+        "viber": 10,
+        "website": 4
+      },
+      "ai_resolved": 31,
+      "handoffs": 19,
+      "orders": 4,
+      "revenue": 4651,
+      "new_clients": 2,
+      "blocked": 2,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-09-10",
+      "channels": {
+        "telegram": 21,
+        "instagram": 16,
+        "viber": 10,
+        "website": 6
+      },
+      "ai_resolved": 34,
+      "handoffs": 19,
+      "orders": 4,
+      "revenue": 4738,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-11",
+      "channels": {
+        "telegram": 21,
+        "instagram": 16,
+        "viber": 12,
+        "website": 5
+      },
+      "ai_resolved": 32,
+      "handoffs": 22,
+      "orders": 5,
+      "revenue": 5428,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-09-12",
+      "channels": {
+        "telegram": 16,
+        "instagram": 12,
+        "viber": 7,
+        "website": 5
+      },
+      "ai_resolved": 24,
+      "handoffs": 16,
+      "orders": 4,
+      "revenue": 4840,
+      "new_clients": 2,
+      "blocked": 2,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-13",
+      "channels": {
+        "telegram": 15,
+        "instagram": 12,
+        "viber": 9,
+        "website": 4
+      },
+      "ai_resolved": 25,
+      "handoffs": 15,
+      "orders": 4,
+      "revenue": 4770,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-09-14",
+      "channels": {
+        "telegram": 22,
+        "instagram": 18,
+        "viber": 10,
+        "website": 5
+      },
+      "ai_resolved": 33,
+      "handoffs": 22,
+      "orders": 5,
+      "revenue": 5683,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-09-15",
+      "channels": {
+        "telegram": 21,
+        "instagram": 21,
+        "viber": 12,
+        "website": 7
+      },
+      "ai_resolved": 40,
+      "handoffs": 21,
+      "orders": 5,
+      "revenue": 6035,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-09-16",
+      "channels": {
+        "telegram": 26,
+        "instagram": 18,
+        "viber": 12,
+        "website": 6
+      },
+      "ai_resolved": 41,
+      "handoffs": 21,
+      "orders": 5,
+      "revenue": 6630,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-17",
+      "channels": {
+        "telegram": 23,
+        "instagram": 16,
+        "viber": 11,
+        "website": 5
+      },
+      "ai_resolved": 35,
+      "handoffs": 20,
+      "orders": 4,
+      "revenue": 5620,
+      "new_clients": 2,
+      "blocked": 2,
+      "response_sec": 8
+    },
+    {
+      "date": "2026-09-18",
+      "channels": {
+        "telegram": 23,
+        "instagram": 22,
+        "viber": 12,
+        "website": 6
+      },
+      "ai_resolved": 41,
+      "handoffs": 22,
+      "orders": 7,
+      "revenue": 8364,
+      "new_clients": 3,
+      "blocked": 3,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-19",
+      "channels": {
+        "telegram": 17,
+        "instagram": 14,
+        "viber": 8,
+        "website": 4
+      },
+      "ai_resolved": 27,
+      "handoffs": 16,
+      "orders": 4,
+      "revenue": 4749,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 4
+    },
+    {
+      "date": "2026-09-20",
+      "channels": {
+        "telegram": 17,
+        "instagram": 14,
+        "viber": 7,
+        "website": 5
+      },
+      "ai_resolved": 27,
+      "handoffs": 16,
+      "orders": 3,
+      "revenue": 3515,
+      "new_clients": 1,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-09-21",
+      "channels": {
+        "telegram": 22,
+        "instagram": 20,
+        "viber": 11,
+        "website": 6
+      },
+      "ai_resolved": 38,
+      "handoffs": 21,
+      "orders": 5,
+      "revenue": 7210,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-09-22",
+      "channels": {
+        "telegram": 22,
+        "instagram": 21,
+        "viber": 11,
+        "website": 6
+      },
+      "ai_resolved": 38,
+      "handoffs": 22,
+      "orders": 5,
+      "revenue": 6477,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-09-23",
+      "channels": {
+        "telegram": 27,
+        "instagram": 20,
+        "viber": 12,
+        "website": 7
+      },
+      "ai_resolved": 42,
+      "handoffs": 24,
+      "orders": 5,
+      "revenue": 5933,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-09-24",
+      "channels": {
+        "telegram": 26,
+        "instagram": 21,
+        "viber": 12,
+        "website": 5
+      },
+      "ai_resolved": 44,
+      "handoffs": 20,
+      "orders": 7,
+      "revenue": 10708,
+      "new_clients": 3,
+      "blocked": 2,
+      "response_sec": 10
+    },
+    {
+      "date": "2026-09-25",
+      "channels": {
+        "telegram": 28,
+        "instagram": 20,
+        "viber": 12,
+        "website": 8
+      },
+      "ai_resolved": 47,
+      "handoffs": 21,
+      "orders": 6,
+      "revenue": 6389,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 8
+    },
+    {
+      "date": "2026-09-26",
+      "channels": {
+        "telegram": 19,
+        "instagram": 15,
+        "viber": 9,
+        "website": 4
+      },
+      "ai_resolved": 31,
+      "handoffs": 16,
+      "orders": 3,
+      "revenue": 3171,
+      "new_clients": 1,
+      "blocked": 0,
+      "response_sec": 8
+    },
+    {
+      "date": "2026-09-27",
+      "channels": {
+        "telegram": 19,
+        "instagram": 13,
+        "viber": 8,
+        "website": 5
+      },
+      "ai_resolved": 31,
+      "handoffs": 14,
+      "orders": 4,
+      "revenue": 5643,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-09-28",
+      "channels": {
+        "telegram": 27,
+        "instagram": 19,
+        "viber": 12,
+        "website": 5
+      },
+      "ai_resolved": 43,
+      "handoffs": 20,
+      "orders": 5,
+      "revenue": 6364,
+      "new_clients": 2,
+      "blocked": 2,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-09-29",
+      "channels": {
+        "telegram": 25,
+        "instagram": 24,
+        "viber": 11,
+        "website": 5
+      },
+      "ai_resolved": 43,
+      "handoffs": 22,
+      "orders": 6,
+      "revenue": 8653,
+      "new_clients": 3,
+      "blocked": 3,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-09-30",
+      "channels": {
+        "telegram": 24,
+        "instagram": 19,
+        "viber": 12,
+        "website": 5
+      },
+      "ai_resolved": 40,
+      "handoffs": 20,
+      "orders": 6,
+      "revenue": 5936,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-01",
+      "channels": {
+        "telegram": 24,
+        "instagram": 24,
+        "viber": 13,
+        "website": 6
+      },
+      "ai_resolved": 47,
+      "handoffs": 20,
+      "orders": 7,
+      "revenue": 7366,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-10-02",
+      "channels": {
+        "telegram": 27,
+        "instagram": 20,
+        "viber": 13,
+        "website": 7
+      },
+      "ai_resolved": 47,
+      "handoffs": 20,
+      "orders": 5,
+      "revenue": 6629,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-10-03",
+      "channels": {
+        "telegram": 18,
+        "instagram": 16,
+        "viber": 10,
+        "website": 5
+      },
+      "ai_resolved": 34,
+      "handoffs": 15,
+      "orders": 4,
+      "revenue": 4286,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-04",
+      "channels": {
+        "telegram": 21,
+        "instagram": 17,
+        "viber": 10,
+        "website": 5
+      },
+      "ai_resolved": 35,
+      "handoffs": 18,
+      "orders": 6,
+      "revenue": 7408,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-10-05",
+      "channels": {
+        "telegram": 27,
+        "instagram": 20,
+        "viber": 12,
+        "website": 6
+      },
+      "ai_resolved": 47,
+      "handoffs": 18,
+      "orders": 7,
+      "revenue": 9340,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-10-06",
+      "channels": {
+        "telegram": 28,
+        "instagram": 23,
+        "viber": 12,
+        "website": 7
+      },
+      "ai_resolved": 50,
+      "handoffs": 20,
+      "orders": 5,
+      "revenue": 4875,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-07",
+      "channels": {
+        "telegram": 30,
+        "instagram": 25,
+        "viber": 13,
+        "website": 6
+      },
+      "ai_resolved": 51,
+      "handoffs": 23,
+      "orders": 7,
+      "revenue": 9753,
+      "new_clients": 4,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-10-08",
+      "channels": {
+        "telegram": 25,
+        "instagram": 21,
+        "viber": 13,
+        "website": 7
+      },
+      "ai_resolved": 48,
+      "handoffs": 18,
+      "orders": 6,
+      "revenue": 8343,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-09",
+      "channels": {
+        "telegram": 25,
+        "instagram": 22,
+        "viber": 13,
+        "website": 8
+      },
+      "ai_resolved": 49,
+      "handoffs": 19,
+      "orders": 5,
+      "revenue": 5376,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-10-10",
+      "channels": {
+        "telegram": 20,
+        "instagram": 14,
+        "viber": 8,
+        "website": 4
+      },
+      "ai_resolved": 34,
+      "handoffs": 12,
+      "orders": 5,
+      "revenue": 5346,
+      "new_clients": 2,
+      "blocked": 1,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-10-11",
+      "channels": {
+        "telegram": 20,
+        "instagram": 18,
+        "viber": 9,
+        "website": 5
+      },
+      "ai_resolved": 38,
+      "handoffs": 14,
+      "orders": 4,
+      "revenue": 6088,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-10-12",
+      "channels": {
+        "telegram": 27,
+        "instagram": 20,
+        "viber": 14,
+        "website": 7
+      },
+      "ai_resolved": 49,
+      "handoffs": 19,
+      "orders": 5,
+      "revenue": 7333,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-13",
+      "channels": {
+        "telegram": 29,
+        "instagram": 22,
+        "viber": 13,
+        "website": 6
+      },
+      "ai_resolved": 53,
+      "handoffs": 17,
+      "orders": 5,
+      "revenue": 7465,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-14",
+      "channels": {
+        "telegram": 27,
+        "instagram": 25,
+        "viber": 13,
+        "website": 9
+      },
+      "ai_resolved": 53,
+      "handoffs": 21,
+      "orders": 8,
+      "revenue": 7203,
+      "new_clients": 4,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-15",
+      "channels": {
+        "telegram": 31,
+        "instagram": 27,
+        "viber": 13,
+        "website": 7
+      },
+      "ai_resolved": 56,
+      "handoffs": 22,
+      "orders": 6,
+      "revenue": 7054,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-10-16",
+      "channels": {
+        "telegram": 27,
+        "instagram": 27,
+        "viber": 13,
+        "website": 7
+      },
+      "ai_resolved": 56,
+      "handoffs": 18,
+      "orders": 6,
+      "revenue": 6063,
+      "new_clients": 3,
+      "blocked": 1,
+      "response_sec": 10
+    },
+    {
+      "date": "2026-10-17",
+      "channels": {
+        "telegram": 21,
+        "instagram": 16,
+        "viber": 11,
+        "website": 6
+      },
+      "ai_resolved": 40,
+      "handoffs": 14,
+      "orders": 5,
+      "revenue": 5335,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-18",
+      "channels": {
+        "telegram": 21,
+        "instagram": 17,
+        "viber": 11,
+        "website": 5
+      },
+      "ai_resolved": 42,
+      "handoffs": 12,
+      "orders": 4,
+      "revenue": 5388,
+      "new_clients": 1,
+      "blocked": 0,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-10-19",
+      "channels": {
+        "telegram": 33,
+        "instagram": 23,
+        "viber": 13,
+        "website": 7
+      },
+      "ai_resolved": 58,
+      "handoffs": 18,
+      "orders": 8,
+      "revenue": 8584,
+      "new_clients": 4,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-10-20",
+      "channels": {
+        "telegram": 32,
+        "instagram": 24,
+        "viber": 16,
+        "website": 8
+      },
+      "ai_resolved": 58,
+      "handoffs": 22,
+      "orders": 8,
+      "revenue": 11394,
+      "new_clients": 4,
+      "blocked": 2,
+      "response_sec": 5
+    },
+    {
+      "date": "2026-10-21",
+      "channels": {
+        "telegram": 32,
+        "instagram": 25,
+        "viber": 15,
+        "website": 8
+      },
+      "ai_resolved": 62,
+      "handoffs": 18,
+      "orders": 6,
+      "revenue": 5546,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-10-22",
+      "channels": {
+        "telegram": 30,
+        "instagram": 25,
+        "viber": 16,
+        "website": 8
+      },
+      "ai_resolved": 62,
+      "handoffs": 17,
+      "orders": 6,
+      "revenue": 7700,
+      "new_clients": 3,
+      "blocked": 2,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-10-23",
+      "channels": {
+        "telegram": 29,
+        "instagram": 25,
+        "viber": 14,
+        "website": 8
+      },
+      "ai_resolved": 56,
+      "handoffs": 20,
+      "orders": 8,
+      "revenue": 7352,
+      "new_clients": 4,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-24",
+      "channels": {
+        "telegram": 20,
+        "instagram": 17,
+        "viber": 9,
+        "website": 6
+      },
+      "ai_resolved": 39,
+      "handoffs": 13,
+      "orders": 4,
+      "revenue": 4164,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 4
+    },
+    {
+      "date": "2026-10-25",
+      "channels": {
+        "telegram": 20,
+        "instagram": 17,
+        "viber": 10,
+        "website": 6
+      },
+      "ai_resolved": 40,
+      "handoffs": 13,
+      "orders": 5,
+      "revenue": 4725,
+      "new_clients": 2,
+      "blocked": 0,
+      "response_sec": 9
+    },
+    {
+      "date": "2026-10-26",
+      "channels": {
+        "telegram": 34,
+        "instagram": 25,
+        "viber": 16,
+        "website": 7
+      },
+      "ai_resolved": 64,
+      "handoffs": 18,
+      "orders": 6,
+      "revenue": 6999,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 6
+    },
+    {
+      "date": "2026-10-27",
+      "channels": {
+        "telegram": 31,
+        "instagram": 27,
+        "viber": 14,
+        "website": 8
+      },
+      "ai_resolved": 63,
+      "handoffs": 17,
+      "orders": 8,
+      "revenue": 9791,
+      "new_clients": 4,
+      "blocked": 0,
+      "response_sec": 7
+    },
+    {
+      "date": "2026-10-28",
+      "channels": {
+        "telegram": 30,
+        "instagram": 27,
+        "viber": 17,
+        "website": 6
+      },
+      "ai_resolved": 61,
+      "handoffs": 19,
+      "orders": 7,
+      "revenue": 9565,
+      "new_clients": 3,
+      "blocked": 0,
+      "response_sec": 9
+    }
+  ],
+  "topics": [
+    {
+      "label": "Наявність товару",
+      "count": 412
+    },
+    {
+      "label": "Доставка і терміни",
+      "count": 356
+    },
+    {
+      "label": "Ціна та знижки",
+      "count": 298
+    },
+    {
+      "label": "Статус замовлення",
+      "count": 241
+    },
+    {
+      "label": "Підбір розміру",
+      "count": 187
+    },
+    {
+      "label": "Оплата",
+      "count": 133
+    },
+    {
+      "label": "Повернення та обмін",
+      "count": 92
+    },
+    {
+      "label": "Опт",
+      "count": 41
+    }
+  ],
+  "handoffs": [
+    {
+      "time": "2026-10-28T09:51:08.183Z",
+      "channel": "website",
+      "reason": "Повернення товару"
+    },
+    {
+      "time": "2026-10-28T07:43:11.643Z",
+      "channel": "website",
+      "reason": "Скарга на якість товару"
+    },
+    {
+      "time": "2026-10-28T04:43:40.923Z",
+      "channel": "telegram",
+      "reason": "Клієнт просить знижку понад дозволену"
+    },
+    {
+      "time": "2026-10-28T02:04:37.792Z",
+      "channel": "instagram",
+      "reason": "Повернення товару"
+    },
+    {
+      "time": "2026-10-27T23:43:05.310Z",
+      "channel": "viber",
+      "reason": "Повернення товару"
+    },
+    {
+      "time": "2026-10-27T20:47:07.971Z",
+      "channel": "website",
+      "reason": "Клієнт попросив живого менеджера"
+    },
+    {
+      "time": "2026-10-27T18:06:46.021Z",
+      "channel": "telegram",
+      "reason": "Повернення товару"
+    },
+    {
+      "time": "2026-10-27T15:28:45.595Z",
+      "channel": "viber",
+      "reason": "Клієнт попросив живого менеджера"
+    },
+    {
+      "time": "2026-10-27T12:48:40.944Z",
+      "channel": "telegram",
+      "reason": "Скарга на якість товару"
+    },
+    {
+      "time": "2026-10-27T09:38:52.189Z",
+      "channel": "website",
+      "reason": "Бот не знайшов товар у базі знань"
+    }
+  ]
+}

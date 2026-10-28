@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>AI-Mola Контроль</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script>
+    // Тему ставимо до рендера, щоб не блимало
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__title">
+      <h1>AI-Mola-manager</h1>
+      <p class="muted" id="freshness">Завантаження даних…</p>
+    </div>
+    <div class="topbar__controls">
+      <div class="segmented" role="radiogroup" aria-label="Період">
+        <button type="button" role="radio" data-days="7">7 днів</button>
+        <button type="button" role="radio" data-days="14">14 днів</button>
+        <button type="button" role="radio" data-days="30">30 днів</button>
+      </div>
+      <button type="button" class="icon-btn" id="theme-toggle" aria-label="Змінити тему">◐</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="banner" id="demo-banner" hidden>
+      <strong>Демо-дані.</strong> Платформу бота ще не підключено, цифри згенеровані для перевірки вигляду.
+    </div>
+    <div class="banner banner--error" id="error-banner" hidden></div>
+
+    <section class="hero card" aria-labelledby="hero-label">
+      <div>
+        <p class="tile__label" id="hero-label">Закрито AI без менеджера</p>
+        <p class="hero__value" id="hero-value">—</p>
+        <p class="tile__delta" id="hero-delta"></p>
+      </div>
+      <p class="hero__note muted" id="hero-note"></p>
+    </section>
+
+    <section class="tiles" id="tiles" aria-label="Ключові показники"></section>
+
+    <section class="grid">
+      <article class="card card--wide" data-chart="dialogs">
+        <header class="card__head">
+          <div>
+            <h2>Діалоги по днях</h2>
+            <p class="muted">Хто закрив діалог: AI сам чи менеджер</p>
+          </div>
+          <button type="button" class="link-btn" data-toggle-table>Таблиця</button>
+        </header>
+        <div class="legend" id="dialogs-legend"></div>
+        <div class="chart" id="dialogs-chart"></div>
+      </article>
+
+      <article class="card card--wide" data-chart="orders">
+        <header class="card__head">
+          <div>
+            <h2>Замовлення від бота</h2>
+            <p class="muted">Створені ботом у KeyCRM, по днях</p>
+          </div>
+          <button type="button" class="link-btn" data-toggle-table>Таблиця</button>
+        </header>
+        <div class="chart" id="orders-chart"></div>
+      </article>
+
+      <article class="card" data-chart="channels">
+        <header class="card__head">
+          <div>
+            <h2>Діалоги за каналами</h2>
+            <p class="muted">За вибраний період</p>
+          </div>
+        </header>
+        <div id="channels-chart"></div>
+      </article>
+
+      <article class="card" data-chart="topics">
+        <header class="card__head">
+          <div>
+            <h2>Популярні теми</h2>
+            <p class="muted">Про що питають найчастіше, за 30 днів</p>
+          </div>
+        </header>
+        <div id="topics-chart"></div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <header class="card__head"><h2>Етапи проєкту</h2></header>
+        <ol class="roadmap" id="roadmap"></ol>
+      </article>
+
+      <article class="card">
+        <header class="card__head"><h2>Джерела даних</h2></header>
+        <ul class="sources" id="sources"></ul>
+      </article>
+
+      <article class="card card--wide">
+        <header class="card__head">
+          <div>
+            <h2>Останні передачі менеджеру</h2>
+            <p class="muted">Без персональних даних клієнтів</p>
+          </div>
+        </header>
+        <div class="table-wrap">
+          <table class="table" id="handoffs">
+            <thead><tr><th>Час</th><th>Канал</th><th>Причина</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/charts.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
